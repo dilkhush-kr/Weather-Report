@@ -95,9 +95,7 @@ function getLocation(){
     if(navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
     }
-    else {
-        //HW - show an alert for no gelolocation support available
-    }
+    
 }
 function showPosition(position){
     const userCoordinates = {
